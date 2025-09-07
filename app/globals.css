@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@plugin "@tailwindcss/typography";
+
+html, body {
+  height: 100%;
+}
+
+.headline1 {
+  @apply
+    font-extrabold 
+    text-4xl 
+    lg:text-5xl 
+    tracking-tight 
+    mb-4;
+
+  text-wrap: balance;  
+}
+
+.headline2 {
+  @apply
+    text-2xl
+    font-bold
+}
+
+.headline3 {
+  @apply
+    text-lg
+    font-bold
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.reading-max {
+  @apply
+    max-w-xl
+    mx-auto
+}
+
+.content-box {
+  @apply
+  bg-white 
+  max-w-xl 
+  rounded-lg
+  shadow 
+  mx-auto 
+  mb-4
+  p-6 
+  text-left
+  border 
+  border-base-300
+
+}
