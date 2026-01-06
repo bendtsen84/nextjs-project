@@ -60,3 +60,11 @@ AUTH_SECRET=din_genererede_secret
 - Dette er en template, ikke et færdigt produkt
 - Tilpas opsætning, providers og miljøvariabler efter behov
 - Brug den som et stabilt udgangspunkt, ikke en spændetrøje
+
+## Release notes
+
+### 2026-01-06
+
+- Opdaterede NextJS, sikkerheds hul er lukket
+- Tilføjede cursor command ( /git )
+- Udvidet Readme fil.
