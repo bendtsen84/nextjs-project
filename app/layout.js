@@ -1,6 +1,6 @@
 import "@/app/globals.css";
 import Header from "@/components/Header";
-
+import { Analytics } from "@vercel/analytics/next";
 import ToasterClient from "@/components/ToasterClient";
 
 export const metadata = {
@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
         <ToasterClient />
         <Header />
         {children}
+        <Analytics />
       </body>
     </html>
   );
